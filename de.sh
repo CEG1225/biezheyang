@@ -15,7 +15,7 @@ while read line; do
 done < ip.txt
 
 # 将临时文件覆盖原文件，从而只保留以数字开头的行
-mv temp_ips.txt ip.txt
+mv temp_ips.txt ipip.txt
 
 # 打印结束信息
 echo "Filtering complete. Non-numeric leading lines removed."
